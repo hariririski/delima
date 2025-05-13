@@ -1,11 +1,11 @@
 streamlit
+numpy<2.0
 torch==2.2.2
 torchvision==0.17.2
 opencv-python-headless
 scikit-image
-numpy
-pandas
 matplotlib
+pandas
 tifffile
 Pillow
 pyiqa==0.1.13
