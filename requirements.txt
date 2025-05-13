@@ -1,13 +1,13 @@
-streamlit==1.32.0
-torch==2.2.2
-torchvision==0.17.2
-opencv-python-headless==4.9.0.80
-scikit-image==0.22.0
-Pillow==10.3.0
-tifffile==2023.7.10
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
+streamlit
+torch
+torchvision
+opencv-python-headless
+scikit-image
+Pillow
+tifffile
+numpy
+pandas
+matplotlib
 
-# install pyiqa dari github karena v0.3.0 belum ada di PyPI
+# install pyiqa langsung dari GitHub (karena versi >=0.3.0 belum tersedia di PyPI)
 git+https://github.com/chaofengc/pyiqa.git@main
