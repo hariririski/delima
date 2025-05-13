@@ -1,6 +1,25 @@
-streamlit
-opencv-python-headless
-torch
-pyiqa
-numpy
-matplotlib
+# === Wajib untuk UI Streamlit ===
+streamlit>=1.31.0
+
+# === Pemrosesan array dan tensor ===
+numpy>=1.23.0
+torch>=2.0.0
+
+# === Untuk metrik evaluasi kualitas gambar (NIQE, PIQE, BRISQUE) ===
+pyiqa>=0.1.6
+
+# === Pemrosesan gambar (tanpa GUI, cocok untuk cloud) ===
+opencv-python-headless>=4.5.5.62
+
+# === Pendukung berbagai format file (jika ada) ===
+Pillow>=9.0.0
+
+# === Jika kamu ingin membaca file .tiff dengan berbagai jenis metadata (optional) ===
+tifffile>=2022.10.10
+
+# === Untuk keamanan file handling (optional) ===
+python-magic>=0.4.27
+
+# === Untuk compatibility lebih luas di cloud (optional protection) ===
+scikit-image>=0.19.0
+scipy>=1.9.0
