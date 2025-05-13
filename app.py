@@ -117,26 +117,28 @@ if img_rgb:
     preset_rgb = json.load(open(PRESET_PATH_RGB))
     img_arr = cv2.imdecode(np.frombuffer(img_rgb.read(), np.uint8), cv2.IMREAD_COLOR)
     img = cv2.cvtColor(img_arr, cv2.COLOR_BGR2RGB)
-    imgf = img.astype(np.float32) / 255.
 
-    q0 = eval_q_rgb(img)
-    d = denoise_rgb(img, preset_rgb["denoise"], preset_rgb["den_kw"])
-    df_ = d.astype(np.float32) / 255.
-    c = contrast_rgb(df_, preset_rgb["contrast"], preset_rgb["con_kw"])
-    f = sharpen_rgb(c, preset_rgb["sharpen"], preset_rgb["shr_kw"])
-    q1 = eval_q_rgb(f)
+    if img.ndim != 3 or img.shape[2] != 3:
+        st.error("❌ Gambar RGB harus memiliki 3 channel warna (R, G, B).")
+    else:
+        q0 = eval_q_rgb(img)
+        d = denoise_rgb(img, preset_rgb["denoise"], preset_rgb["den_kw"])
+        df_ = d.astype(np.float32) / 255.
+        c = contrast_rgb(df_, preset_rgb["contrast"], preset_rgb["con_kw"])
+        f = sharpen_rgb(c, preset_rgb["sharpen"], preset_rgb["shr_kw"])
+        q1 = eval_q_rgb(f)
 
-    titles = [
-        f"<b>Original</b><br>NIQE {q0['niqe']} | PIQE {q0['piqe']} | CF {q0['cf']}",
-        f"<b>Denoised</b><br>Method: {preset_rgb['denoise']}<br>Param: {preset_rgb['den_kw']}<br>NIQE {eval_q_rgb(d)['niqe']} | PIQE {eval_q_rgb(d)['piqe']} | CF {eval_q_rgb(d)['cf']}",
-        f"<b>Contrast</b><br>Method: {preset_rgb['contrast']}<br>Param: {preset_rgb['con_kw']}<br>NIQE {eval_q_rgb((c*255).astype(np.uint8))['niqe']} | PIQE {eval_q_rgb((c*255).astype(np.uint8))['piqe']} | CF {eval_q_rgb((c*255).astype(np.uint8))['cf']}",
-        f"<b>Sharpened</b><br>Method: {preset_rgb['sharpen']}<br>Param: {preset_rgb['shr_kw']}<br>NIQE {q1['niqe']} | PIQE {q1['piqe']} | CF {q1['cf']}"
-    ]
-    images = resize_same_height([img, d, (c*255).astype(np.uint8), f])
-    cols = st.columns(4)
-    for col, title, im in zip(cols, titles, images):
-        col.image(im, use_column_width=True)
-        col.markdown(f"<div style='font-size:18px; font-weight:700; color:#000;'>{title}</div>", unsafe_allow_html=True)
+        titles = [
+            f"<b>Original</b><br>NIQE {q0['niqe']} | PIQE {q0['piqe']} | CF {q0['cf']}",
+            f"<b>Denoised</b><br>Method: {preset_rgb['denoise']}<br>Param: {preset_rgb['den_kw']}<br>NIQE {eval_q_rgb(d)['niqe']} | PIQE {eval_q_rgb(d)['piqe']} | CF {eval_q_rgb(d)['cf']}",
+            f"<b>Contrast</b><br>Method: {preset_rgb['contrast']}<br>Param: {preset_rgb['con_kw']}<br>NIQE {eval_q_rgb((c*255).astype(np.uint8))['niqe']} | PIQE {eval_q_rgb((c*255).astype(np.uint8))['piqe']} | CF {eval_q_rgb((c*255).astype(np.uint8))['cf']}",
+            f"<b>Sharpened</b><br>Method: {preset_rgb['sharpen']}<br>Param: {preset_rgb['shr_kw']}<br>NIQE {q1['niqe']} | PIQE {q1['piqe']} | CF {q1['cf']}"
+        ]
+        images = resize_same_height([img, d, (c*255).astype(np.uint8), f])
+        cols = st.columns(4)
+        for col, title, im in zip(cols, titles, images):
+            col.image(im, use_column_width=True)
+            col.markdown(f"<div style='font-size:18px; font-weight:700; color:#000;'>{title}</div>", unsafe_allow_html=True)
 
 # === GRAYSCALE PIPELINE ===
 st.subheader(f"🌑 Pipeline Grayscale ({PIPELINE_GRAY})")
@@ -147,22 +149,26 @@ if img_gray:
     preset_gray = preset_gray_all if "den" in preset_gray_all else preset_gray_all[PIPELINE_GRAY]
 
     im = cv2.imdecode(np.frombuffer(img_gray.read(), np.uint8), cv2.IMREAD_UNCHANGED)
-    orig8 = (im // 256).astype(np.uint8)
-    q0 = eval_q_gray(orig8)
 
-    d16 = denoise_gray(im, preset_gray["den"], preset_gray["dkw"])
-    cf = contrast_gray(d16.astype(np.float32) / 65535, preset_gray["con"], preset_gray["ckw"])
-    fin = sharpen_gray(cf, preset_gray["shr"], preset_gray["skw"])
-    q1 = eval_q_gray(fin)
+    if im.ndim != 2:
+        st.error("❌ Gambar grayscale harus 1 channel (hitam-putih).")
+    else:
+        orig8 = (im // 256).astype(np.uint8)
+        q0 = eval_q_gray(orig8)
 
-    titles = [
-        f"<b>Original</b><br>NIQE {q0['niqe']} | PIQE {q0['piqe']}",
-        f"<b>Denoised</b><br>Method: {preset_gray['den']}<br>Param: {preset_gray['dkw']}<br>NIQE {eval_q_gray((d16//256).astype(np.uint8))['niqe']} | PIQE {eval_q_gray((d16//256).astype(np.uint8))['piqe']}",
-        f"<b>Contrast</b><br>Method: {preset_gray['con']}<br>Param: {preset_gray['ckw']}<br>NIQE {eval_q_gray((cf*255).astype(np.uint8))['niqe']} | PIQE {eval_q_gray((cf*255).astype(np.uint8))['piqe']}",
-        f"<b>Sharpened</b><br>Method: {preset_gray['shr']}<br>Param: {preset_gray['skw']}<br>NIQE {q1['niqe']} | PIQE {q1['piqe']}"
-    ]
-    images = resize_same_height([orig8, (d16//256).astype(np.uint8), (cf*255).astype(np.uint8), fin])
-    cols = st.columns(4)
-    for col, title, im in zip(cols, titles, images):
-        col.image(im, use_column_width=True)
-        col.markdown(f"<div style='font-size:18px; font-weight:700; color:#000;'>{title}</div>", unsafe_allow_html=True)
+        d16 = denoise_gray(im, preset_gray["den"], preset_gray["dkw"])
+        cf = contrast_gray(d16.astype(np.float32) / 65535, preset_gray["con"], preset_gray["ckw"])
+        fin = sharpen_gray(cf, preset_gray["shr"], preset_gray["skw"])
+        q1 = eval_q_gray(fin)
+
+        titles = [
+            f"<b>Original</b><br>NIQE {q0['niqe']} | PIQE {q0['piqe']}",
+            f"<b>Denoised</b><br>Method: {preset_gray['den']}<br>Param: {preset_gray['dkw']}<br>NIQE {eval_q_gray((d16//256).astype(np.uint8))['niqe']} | PIQE {eval_q_gray((d16//256).astype(np.uint8))['piqe']}",
+            f"<b>Contrast</b><br>Method: {preset_gray['con']}<br>Param: {preset_gray['ckw']}<br>NIQE {eval_q_gray((cf*255).astype(np.uint8))['niqe']} | PIQE {eval_q_gray((cf*255).astype(np.uint8))['piqe']}",
+            f"<b>Sharpened</b><br>Method: {preset_gray['shr']}<br>Param: {preset_gray['skw']}<br>NIQE {q1['niqe']} | PIQE {q1['piqe']}"
+        ]
+        images = resize_same_height([orig8, (d16//256).astype(np.uint8), (cf*255).astype(np.uint8), fin])
+        cols = st.columns(4)
+        for col, title, im in zip(cols, titles, images):
+            col.image(im, use_column_width=True)
+            col.markdown(f"<div style='font-size:18px; font-weight:700; color:#000;'>{title}</div>", unsafe_allow_html=True)
