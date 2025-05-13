@@ -1,0 +1,17 @@
+pipeline,denoise,den_kw,contrast,con_kw,sharpen,shr_kw,niqe,piqe,colorfulness
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.217578366804529,56.66454518636068,78.00094411635062
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.217578366804529,56.66454518636068,78.00094411635062
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.082242757022516,54.481666819254556,77.81782697165335
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.082242757022516,54.481666819254556,77.81782697165335
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.157851280432288,56.44038391113281,77.81221580322307
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.157851280432288,56.44038391113281,77.81221580322307
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.018628820320152,54.55934499104818,77.62952766183207
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.018628820320152,54.55934499104818,77.62952766183207
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.705841342027576,55.83850962320964,77.86740463343588
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.705841342027576,55.83850962320964,77.86740463343588
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.559489116002959,53.747290229797365,77.69324143199329
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.559489116002959,53.747290229797365,77.69324143199329
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.496977457727354,56.19107964833577,77.63350491489796
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.496977457727354,56.19107964833577,77.63350491489796
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",7.340640601130192,54.34981149037679,77.46520315699783
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",7.340640601130192,54.34981149037679,77.46520315699783

@@ -1,0 +1,23 @@
+{
+  "P10": {
+    "den": "fast_nlm",
+    "dkw": {
+      "h": 10,
+      "template": 7,
+      "search": 21
+    },
+    "con": "clahe",
+    "ckw": {
+      "clip": 2.0,
+      "tile": [
+        8,
+        8
+      ]
+    },
+    "shr": "unsharp",
+    "skw": {
+      "alpha": 1.7,
+      "sigma": 3
+    }
+  }
+}

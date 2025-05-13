@@ -1,0 +1,14 @@
+{
+  "denoise": null,
+  "den_kw": {},
+  "contrast": "percentile",
+  "con_kw": {
+    "lo": 0.05,
+    "hi": 99.5
+  },
+  "sharpen": "unsharp",
+  "shr_kw": {
+    "alpha": 1.5,
+    "sigma": 3
+  }
+}

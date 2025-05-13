@@ -1,0 +1,5 @@
+pid,den,dkw,con,ckw,shr,skw,niqe,piqe,score
+P6,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},l0,{},10.724883178799608,89.74971879323324,50.23730098601642
+P6,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},l0,{},10.554364726446323,86.96067498524984,48.75751985584808
+P6,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},l0,{},11.133929982447011,94.86661173502604,53.00027085873653
+P6,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},l0,{},10.827178676990997,92.05462741851807,51.44090304775453

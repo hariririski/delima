@@ -1,0 +1,17 @@
+{
+  "P4": {
+    "den": "median",
+    "dkw": {
+      "ksize": 3
+    },
+    "con": "adaptive_gamma",
+    "ckw": {
+      "mult": 1.5
+    },
+    "shr": "unsharp",
+    "skw": {
+      "alpha": 1.7,
+      "sigma": 3
+    }
+  }
+}

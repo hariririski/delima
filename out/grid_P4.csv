@@ -1,0 +1,17 @@
+pid,den,dkw,con,ckw,shr,skw,niqe,piqe,score
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.3, 'sigma': 1}",15.793952940794437,74.58347002665202,45.18871148372323
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.3, 'sigma': 3}",10.403374169883648,48.23159173329671,29.31748295159018
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.7, 'sigma': 1}",16.75178319464833,78.61328048706055,47.68253184085444
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.7, 'sigma': 3}",9.09949336626954,46.37625681559245,27.737875090930995
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.3, 'sigma': 1}",15.43683227648449,74.85811316172281,45.147472719103654
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.3, 'sigma': 3}",10.243201233567328,47.29727160135905,28.770236417463188
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.7, 'sigma': 1}",16.147423443636878,77.28591283162434,46.71666813763061
+P4,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.7, 'sigma': 3}",9.02091654655292,45.22731691996257,27.124116733257743
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.3, 'sigma': 1}",15.811765796363078,76.287557665507,46.049661730935036
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.3, 'sigma': 3}",9.811251381490125,48.06652386983236,28.93888762566124
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.7, 'sigma': 1}",17.735524292943865,79.41868286132812,48.57710357713599
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.7, 'sigma': 3}",9.078843990920996,48.2298898379008,28.654366914410897
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.3, 'sigma': 1}",15.639941264401946,77.38580722808838,46.51287424624516
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.3, 'sigma': 3}",9.646884644227804,46.92041912078857,28.283651882508188
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.7, 'sigma': 1}",17.26880072515699,78.17423057556152,47.72151565035926
+P4,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.7, 'sigma': 3}",8.906600105357134,46.733204460144044,27.81990228275059

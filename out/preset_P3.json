@@ -1,0 +1,18 @@
+{
+  "P3": {
+    "den": "median",
+    "dkw": {
+      "ksize": 5
+    },
+    "con": "clahe",
+    "ckw": {
+      "clip": 2.0,
+      "tile": [
+        8,
+        8
+      ]
+    },
+    "shr": "l0",
+    "skw": {}
+  }
+}

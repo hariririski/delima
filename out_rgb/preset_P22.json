@@ -1,0 +1,13 @@
+{
+  "denoise": null,
+  "den_kw": {},
+  "contrast": "adaptive_gamma",
+  "con_kw": {
+    "mult": 1.5
+  },
+  "sharpen": "guided",
+  "shr_kw": {
+    "radius": 4,
+    "eps": 0.001
+  }
+}

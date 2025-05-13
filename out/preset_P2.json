@@ -1,0 +1,21 @@
+{
+  "P2": {
+    "den": "median",
+    "dkw": {
+      "ksize": 5
+    },
+    "con": "clahe",
+    "ckw": {
+      "clip": 2.0,
+      "tile": [
+        8,
+        8
+      ]
+    },
+    "shr": "guided",
+    "skw": {
+      "radius": 4,
+      "eps": 0.001
+    }
+  }
+}

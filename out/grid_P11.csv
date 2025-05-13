@@ -1,0 +1,17 @@
+pid,den,dkw,con,ckw,shr,skw,niqe,piqe,score
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",11.070891032860743,58.79601287841797,34.933451955639356
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",11.070891032860743,58.79601287841797,34.933451955639356
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",10.613756526008254,55.960049120585126,33.28690282329669
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",10.613756526008254,55.960049120585126,33.28690282329669
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",10.47344385301318,59.549123700459795,35.01128377673649
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",10.47344385301318,59.549123700459795,35.01128377673649
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",9.972722906505874,56.622295188903806,33.29750904770484
+P11,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",9.972722906505874,56.622295188903806,33.29750904770484
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",11.394637537872494,57.11774578094482,34.25619165940866
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",11.394637537872494,57.11774578094482,34.25619165940866
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",10.856774108644464,54.79101816813151,32.82389613838799
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",10.856774108644464,54.79101816813151,32.82389613838799
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",11.008020026788099,55.40872933069865,33.208374678743375
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",11.008020026788099,55.40872933069865,33.208374678743375
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 4, 'eps': 0.001}",10.42795144412167,53.16544666290283,31.79669905351225
+P11,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",guided,"{'radius': 6, 'eps': 0.001}",10.42795144412167,53.16544666290283,31.79669905351225

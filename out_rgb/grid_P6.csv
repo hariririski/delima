@@ -1,0 +1,17 @@
+pipeline,denoise,den_kw,contrast,con_kw,sharpen,shr_kw,niqe,piqe,colorfulness
+P6,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.2},l0,{},9.625766392973617,91.04080746968587,74.11738539144609
+P6,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.5},l0,{},9.574825705027768,91.43134231567383,73.63192872849787
+P6,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.2},l0,{},9.625598837732577,91.04072825113933,74.11738180660033
+P6,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.5},l0,{},9.574865076947342,91.43134854634603,73.63192279868187
+P6,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.2},l0,{},9.606404166585378,91.14726575215657,74.1091688541752
+P6,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.5},l0,{},9.55563800606417,91.48129717508952,73.6236797012281
+P6,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.2},l0,{},9.606148359162272,91.14734649658203,74.10915447934438
+P6,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.5},l0,{},9.555589037504156,91.48134854634603,73.62366532435775
+P6,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.2},l0,{},9.628565619160296,92.68089485168457,73.9927202750964
+P6,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.5},l0,{},9.538243002121549,92.49479331970215,73.52302810010647
+P6,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.2},l0,{},9.628740500272572,92.68097356160482,73.9927020832208
+P6,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.5},l0,{},9.538168388256944,92.49485511779785,73.52301951212165
+P6,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.2},l0,{},9.648200255187238,92.68419952392578,73.97555144697085
+P6,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 75}",adaptive_gamma,{'mult': 1.5},l0,{},9.561911846631883,92.64332656860351,73.50529290585187
+P6,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.2},l0,{},9.648357275279611,92.68419850667318,73.97550142887903
+P6,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 100}",adaptive_gamma,{'mult': 1.5},l0,{},9.562254896962337,92.64333635965983,73.50523959350214

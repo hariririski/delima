@@ -1,0 +1,21 @@
+{
+  "P1": {
+    "den": "median",
+    "dkw": {
+      "ksize": 5
+    },
+    "con": "clahe",
+    "ckw": {
+      "clip": 2.0,
+      "tile": [
+        8,
+        8
+      ]
+    },
+    "shr": "unsharp",
+    "skw": {
+      "alpha": 1.7,
+      "sigma": 3
+    }
+  }
+}

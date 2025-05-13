@@ -1,0 +1,14 @@
+{
+  "denoise": "fast_nlm",
+  "den_kw": {
+    "h": 10,
+    "template": 7,
+    "search": 31
+  },
+  "contrast": "adaptive_gamma",
+  "con_kw": {
+    "mult": 1.5
+  },
+  "sharpen": "l0",
+  "shr_kw": {}
+}

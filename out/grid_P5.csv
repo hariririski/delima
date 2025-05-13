@@ -1,0 +1,9 @@
+pid,den,dkw,con,ckw,shr,skw,niqe,piqe,score
+P5,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},guided,"{'radius': 4, 'eps': 0.001}",10.796129872215198,90.34559307098388,50.57086147159954
+P5,median,{'ksize': 3},adaptive_gamma,{'mult': 1.2},guided,"{'radius': 6, 'eps': 0.001}",10.796129872215198,90.34559307098388,50.57086147159954
+P5,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},guided,"{'radius': 4, 'eps': 0.001}",10.646865238117844,86.51378739674887,48.580326317433354
+P5,median,{'ksize': 3},adaptive_gamma,{'mult': 1.5},guided,"{'radius': 6, 'eps': 0.001}",10.646865238117844,86.51378739674887,48.580326317433354
+P5,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},guided,"{'radius': 4, 'eps': 0.001}",11.172804090754589,96.03980407714843,53.606304083951514
+P5,median,{'ksize': 5},adaptive_gamma,{'mult': 1.2},guided,"{'radius': 6, 'eps': 0.001}",11.172804090754589,96.03980407714843,53.606304083951514
+P5,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},guided,"{'radius': 4, 'eps': 0.001}",10.908061209765187,90.31326828002929,50.610664744897235
+P5,median,{'ksize': 5},adaptive_gamma,{'mult': 1.5},guided,"{'radius': 6, 'eps': 0.001}",10.908061209765187,90.31326828002929,50.610664744897235

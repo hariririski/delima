@@ -1,0 +1,14 @@
+{
+  "P6": {
+    "den": "median",
+    "dkw": {
+      "ksize": 3
+    },
+    "con": "adaptive_gamma",
+    "ckw": {
+      "mult": 1.5
+    },
+    "shr": "l0",
+    "skw": {}
+  }
+}

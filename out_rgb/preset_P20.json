@@ -1,0 +1,17 @@
+{
+  "denoise": null,
+  "den_kw": {},
+  "contrast": "clahe",
+  "con_kw": {
+    "clip": 2.0,
+    "tile": [
+      8,
+      8
+    ]
+  },
+  "sharpen": "guided",
+  "shr_kw": {
+    "radius": 4,
+    "eps": 0.001
+  }
+}

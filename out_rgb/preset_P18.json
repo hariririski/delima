@@ -1,0 +1,15 @@
+{
+  "denoise": "fast_nlm",
+  "den_kw": {
+    "h": 10,
+    "template": 7,
+    "search": 21
+  },
+  "contrast": "percentile",
+  "con_kw": {
+    "lo": 0.1,
+    "hi": 99.5
+  },
+  "sharpen": "l0",
+  "shr_kw": {}
+}

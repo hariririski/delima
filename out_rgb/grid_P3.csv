@@ -1,0 +1,17 @@
+pipeline,denoise,den_kw,contrast,con_kw,sharpen,shr_kw,niqe,piqe,colorfulness
+P3,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 75}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},8.211250322432823,62.86759484608968,74.31845241610378
+P3,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 75}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},8.099447509827431,63.04834543863932,74.01172453037651
+P3,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 100}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},8.21120789130148,62.83307781219482,74.31859223786968
+P3,bilateral,"{'d': 7, 'sigmaColor': 75, 'sigmaSpace': 100}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},8.099402044302321,63.056661224365236,74.01172470239199
+P3,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 75}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},8.215769376710806,62.59829406738281,74.31335096571532
+P3,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 75}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},8.102774105057879,63.05983117421468,74.00721604379484
+P3,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 100}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},8.215582648960234,62.593492380777995,74.31325682835235
+P3,bilateral,"{'d': 7, 'sigmaColor': 100, 'sigmaSpace': 100}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},8.102559259968627,63.05749403635661,74.00721018575703
+P3,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 75}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},7.97280676890375,57.552915986378984,74.24188970723783
+P3,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 75}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},7.854549096572522,56.890197086334226,73.93403625782975
+P3,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 100}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},7.973026583305758,57.612270259857176,74.24194265422645
+P3,bilateral,"{'d': 9, 'sigmaColor': 75, 'sigmaSpace': 100}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},7.854562737503142,56.9388944307963,73.93401018768103
+P3,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 75}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},7.997018679365294,56.94115165074666,74.23143242579832
+P3,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 75}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},7.88082011317665,56.618022505442305,73.92458412042363
+P3,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 100}",clahe,"{'clip': 1.5, 'tile': (8, 8)}",l0,{},7.99620641849052,56.91217517852783,74.23146372601447
+P3,bilateral,"{'d': 9, 'sigmaColor': 100, 'sigmaSpace': 100}",clahe,"{'clip': 2.0, 'tile': (8, 8)}",l0,{},7.8810264780605985,56.63463853200277,73.92454002670834

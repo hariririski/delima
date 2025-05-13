@@ -1,0 +1,9 @@
+pipeline,denoise,den_kw,contrast,con_kw,sharpen,shr_kw,niqe,piqe,colorfulness
+P21,,{},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.3, 'sigma': 1}",11.19542920180559,46.14977169036865,77.6483058610747
+P21,,{},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.3, 'sigma': 3}",10.161419155419443,51.592590141296384,79.1982854696494
+P21,,{},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.5, 'sigma': 1}",10.653407570450849,37.53780584335327,77.71587932422332
+P21,,{},adaptive_gamma,{'mult': 1.2},unsharp,"{'alpha': 1.5, 'sigma': 3}",9.985305056890093,48.82618420918782,79.58647657168623
+P21,,{},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.3, 'sigma': 1}",11.0667457206023,43.44350738525391,77.25194747471801
+P21,,{},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.3, 'sigma': 3}",10.094824044903943,49.74367478688558,78.6904058923178
+P21,,{},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.5, 'sigma': 1}",10.599035636625919,35.87150656382243,77.32153940439709
+P21,,{},adaptive_gamma,{'mult': 1.5},unsharp,"{'alpha': 1.5, 'sigma': 3}",9.930556901765295,47.22061398824056,79.07727026964275

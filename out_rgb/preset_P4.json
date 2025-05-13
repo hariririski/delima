@@ -1,0 +1,17 @@
+{
+  "denoise": "bilateral",
+  "den_kw": {
+    "d": 9,
+    "sigmaColor": 75,
+    "sigmaSpace": 75
+  },
+  "contrast": "adaptive_gamma",
+  "con_kw": {
+    "mult": 1.5
+  },
+  "sharpen": "unsharp",
+  "shr_kw": {
+    "alpha": 1.5,
+    "sigma": 3
+  }
+}

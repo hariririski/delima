@@ -1,0 +1,19 @@
+{
+  "P13": {
+    "den": "fast_nlm",
+    "dkw": {
+      "h": 15,
+      "template": 7,
+      "search": 31
+    },
+    "con": "adaptive_gamma",
+    "ckw": {
+      "mult": 1.2
+    },
+    "shr": "unsharp",
+    "skw": {
+      "alpha": 1.3,
+      "sigma": 3
+    }
+  }
+}

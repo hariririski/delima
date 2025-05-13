@@ -1,0 +1,17 @@
+{
+  "denoise": "bilateral",
+  "den_kw": {
+    "d": 9,
+    "sigmaColor": 75,
+    "sigmaSpace": 100
+  },
+  "contrast": "adaptive_gamma",
+  "con_kw": {
+    "mult": 1.5
+  },
+  "sharpen": "guided",
+  "shr_kw": {
+    "radius": 4,
+    "eps": 0.001
+  }
+}

@@ -1,0 +1,5 @@
+pipeline,denoise,den_kw,contrast,con_kw,sharpen,shr_kw,niqe,piqe,colorfulness
+P22,,{},adaptive_gamma,{'mult': 1.2},guided,"{'radius': 4, 'eps': 0.001}",11.27637503128978,76.4441104888916,76.85782428149805
+P22,,{},adaptive_gamma,{'mult': 1.2},guided,"{'radius': 6, 'eps': 0.001}",11.27637503128978,76.4441104888916,76.85782428149805
+P22,,{},adaptive_gamma,{'mult': 1.5},guided,"{'radius': 4, 'eps': 0.001}",11.174317702678993,75.1166835784912,76.19737048940397
+P22,,{},adaptive_gamma,{'mult': 1.5},guided,"{'radius': 6, 'eps': 0.001}",11.174317702678993,75.1166835784912,76.19737048940397

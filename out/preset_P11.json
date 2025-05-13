@@ -1,0 +1,23 @@
+{
+  "P11": {
+    "den": "fast_nlm",
+    "dkw": {
+      "h": 15,
+      "template": 7,
+      "search": 31
+    },
+    "con": "clahe",
+    "ckw": {
+      "clip": 2.0,
+      "tile": [
+        8,
+        8
+      ]
+    },
+    "shr": "guided",
+    "skw": {
+      "radius": 4,
+      "eps": 0.001
+    }
+  }
+}

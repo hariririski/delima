@@ -1,0 +1,18 @@
+{
+  "P7": {
+    "den": "median",
+    "dkw": {
+      "ksize": 5
+    },
+    "con": "percentile",
+    "ckw": {
+      "lo": 0.1,
+      "hi": 99.5
+    },
+    "shr": "unsharp",
+    "skw": {
+      "alpha": 1.7,
+      "sigma": 3
+    }
+  }
+}

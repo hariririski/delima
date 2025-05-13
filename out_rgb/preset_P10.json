@@ -1,0 +1,21 @@
+{
+  "denoise": "fast_nlm",
+  "den_kw": {
+    "h": 10,
+    "template": 7,
+    "search": 31
+  },
+  "contrast": "clahe",
+  "con_kw": {
+    "clip": 1.5,
+    "tile": [
+      8,
+      8
+    ]
+  },
+  "sharpen": "unsharp",
+  "shr_kw": {
+    "alpha": 1.5,
+    "sigma": 3
+  }
+}

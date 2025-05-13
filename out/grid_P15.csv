@@ -1,0 +1,9 @@
+pid,den,dkw,con,ckw,shr,skw,niqe,piqe,score
+P15,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",adaptive_gamma,{'mult': 1.2},l0,{},14.916609675004626,96.1828623453776,55.54973601019111
+P15,fast_nlm,"{'h': 10, 'template': 7, 'search': 21}",adaptive_gamma,{'mult': 1.5},l0,{},14.175051198354064,96.1687786102295,55.17191490429178
+P15,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",adaptive_gamma,{'mult': 1.2},l0,{},14.57702360493831,96.11265246073405,55.34483803283618
+P15,fast_nlm,"{'h': 10, 'template': 7, 'search': 31}",adaptive_gamma,{'mult': 1.5},l0,{},13.955541720520063,96.03279571533203,54.994168717926044
+P15,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",adaptive_gamma,{'mult': 1.2},l0,{},15.356419816288446,96.11021842956544,55.73331912292694
+P15,fast_nlm,"{'h': 15, 'template': 7, 'search': 21}",adaptive_gamma,{'mult': 1.5},l0,{},14.647182076858382,96.10415509541829,55.37566858613834
+P15,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",adaptive_gamma,{'mult': 1.2},l0,{},15.21210067879307,96.16874783833822,55.69042425856564
+P15,fast_nlm,"{'h': 15, 'template': 7, 'search': 31}",adaptive_gamma,{'mult': 1.5},l0,{},14.725312962795796,96.17738304138183,55.451348002088814

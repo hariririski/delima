@@ -1,0 +1,17 @@
+{
+  "P18": {
+    "den": "fast_nlm",
+    "dkw": {
+      "h": 10,
+      "template": 7,
+      "search": 31
+    },
+    "con": "percentile",
+    "ckw": {
+      "lo": 0.1,
+      "hi": 99.9
+    },
+    "shr": "l0",
+    "skw": {}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "P5": {
+    "den": "median",
+    "dkw": {
+      "ksize": 3
+    },
+    "con": "adaptive_gamma",
+    "ckw": {
+      "mult": 1.5
+    },
+    "shr": "guided",
+    "skw": {
+      "radius": 4,
+      "eps": 0.001
+    }
+  }
+}

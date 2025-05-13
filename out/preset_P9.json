@@ -1,0 +1,15 @@
+{
+  "P9": {
+    "den": "median",
+    "dkw": {
+      "ksize": 3
+    },
+    "con": "percentile",
+    "ckw": {
+      "lo": 0.1,
+      "hi": 99.5
+    },
+    "shr": "l0",
+    "skw": {}
+  }
+}
