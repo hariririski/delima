@@ -137,7 +137,7 @@ if img_rgb:
         images = resize_same_height([img, d, (c*255).astype(np.uint8), f])
         cols = st.columns(4)
         for col, title, im in zip(cols, titles, images):
-            col.image(im, use_column_width=True)
+            col.image(im, use_container_width=True)
             col.markdown(f"<div style='font-size:18px; font-weight:700; color:#000;'>{title}</div>", unsafe_allow_html=True)
 
 # === GRAYSCALE PIPELINE ===
