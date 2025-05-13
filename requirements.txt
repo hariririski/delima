@@ -1,19 +1,19 @@
-# --- CORE STREAMLIT APP ---
+# Streamlit App
 streamlit==1.32.0
 
-# --- TORCH dan Pytorch Image Quality Assessment ---
-torch==1.13.1
-pyiqa==0.1.6
+# Pytorch yang kompatibel dengan Python 3.12 dan pyiqa terbaru
+torch==2.2.2
+torchvision==0.17.2
 
-# --- OpenCV untuk pemrosesan citra ---
-opencv-python-headless==4.7.0.72
+# Pyiqa terbaru (kompatibel dengan torch>=2.x)
+pyiqa==0.3.0
 
-# --- Numerik dan utility ---
-numpy==1.23.5
-scipy==1.9.3
-scikit-image==0.19.3
-tifffile==2022.10.10
-Pillow==9.5.0
+# OpenCV untuk cloud
+opencv-python-headless==4.9.0.80
 
-# --- Pandas untuk preset dan hasil evaluasi ---
-pandas==1.5.3
+# Utilitas
+numpy==1.26.4
+pandas==2.2.2
+scikit-image==0.22.0
+tifffile==2023.7.10
+Pillow==10.3.0
