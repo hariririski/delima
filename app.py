@@ -170,5 +170,5 @@ if img_gray:
         images = resize_same_height([orig8, (d16//256).astype(np.uint8), (cf*255).astype(np.uint8), fin])
         cols = st.columns(4)
         for col, title, im in zip(cols, titles, images):
-            col.image(im, use_column_width=True)
+            col.image(im, use_container_width=True)
             col.markdown(f"<div style='font-size:18px; font-weight:700; color:#000;'>{title}</div>", unsafe_allow_html=True)
