@@ -1,13 +1,11 @@
 streamlit
-torch
-torchvision
+torch==2.2.2
+torchvision==0.17.2
 opencv-python-headless
 scikit-image
-Pillow
-tifffile
 numpy
 pandas
 matplotlib
-
-# install pyiqa langsung dari GitHub (karena versi >=0.3.0 belum tersedia di PyPI)
-git+https://github.com/chaofengc/pyiqa.git@main
+tifffile
+Pillow
+pyiqa==0.1.13
